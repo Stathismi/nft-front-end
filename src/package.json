@@ -1,0 +1,7 @@
+{
+  "name": "src",
+  "devDependencies": {
+    "@types/react-native-fbsdk": "^3.0.1",
+    "@types/styled-components": "^5.1.12"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "common": {
+    "next": "Επόμενο",
+    "email_example": "You@bethebest.com",
+    "invalid_email": "Μη έγκυρο email!",
+    "close": "Κλείσιμο",
+    "cancel": "Ακύρωση",
+    "seat": "Θέση",
+    "ticket": "Εισιτήριο",
+    "sell": "πουλήσετε",
+    "share": "μεταβιβάστε",
+    "back": "Πίσω"
+  },
+  "validations": {
+    "email": {
+      "empty": "Το πεδίο email δεν μπορεί να μείνει κενό.",
+      "invalid": "Η διεύθυνση email δεν είναι σωστή. Ελέγξτε τη διεύθυνση και δοκιμάστε ξανά."
+    },
+    "name": {
+      "empty": "To πεδίο όνομα δεν μπορεί να είναι κενό.",
+      "invalid": "Το όνομα που συμπληρώσατε δεν είναι σωστό"
+    },
+    "codes": {
+      "empty": "Το πεδιο κωδικός δεν μπορεί να είναι κενό",
+      "invalid": "Ο κωδικός πρέπει να αποτελείται απο 4 ψηφία"
+    }
+  },
+  "login": {
+    "tagline": "NFT Collectibles App",
+    "email_placeholder": "Συμπληρώστε το email σας εδώ",
+    "email_button_CTA": "Στείλτε Μου το Μαγικό Σύνδεσμο",
+    "or": "Ή",
+    "agreement": {
+      "prefix": "Συνεχίζοντας, αποδέχεστε τους",
+      "terms": "Όρους Χρήσης",
+      "privacy_policy": "Πολιτική Απορρήτου",
+      "content_policy": "Πολιτική Περιεχομένου"
+    },
+    "logout": "Αποσύνδεση",
+    "modals": {
+      "email_sent_info": {
+        "title": "✨ Ένα email με το μαγικό σύνδεσμο έχει σταλεί στη διεύθυνση email σας.",
+        "message": "Ακολουθήστε τις οδηγίες\nτου email."
+      }
+    }
+  },
+  "wallet": {
+    "withdraw": "withdraw",
+    "sell": "πώληση",
+    "collection": "Συλλογή",
+    "promo": "Η συλλογή σας σε ένα σημείο",
+    "explore_more": "Ανακαλύψτε περισσότερα NFTs",
+    "check_redeem": "Μεταφορά στη σελίδα εξαργύρωσης",
+    "unSell": "Ακύρωση"
+  },
+  "terms": {
+    "our_services": "ΟΙ ΥΠΕΡΕΣΙΕΣ ΜΑΣ"
+  },
+  "myTickets": {
+    "tickets": "Εισιτήρια",
+    "hosted_by": "Διοργανώνεται από ",
+    "date": "el-GR",
+    "no_tickets": "Προς το παρόν δεν έχεις εισιτήρια",
+    "explore_events": "Εξερευνήστε τις εκδηλώσεις κοντά σας",
+    "today": "Σήμερα",
+    "upcoming": "Μελλοντικές Εκδηλώσεις",
+    "past": "Προηγούμενες Εκδηλώσεις"
+  },
+  "viewTickets": {
+    "zone": "Ζώνη",
+    "seats": "Θέσεις",
+    "ticketCategory": "Κατηγορία Εισιτηρίου",
+    "shareTicket": "Μεταβίβαση Εισιτηρίου",
+    "unshareTicket": "Ανάκτηση\nΕισιτηρίου",
+    "location": "Τοποθεσία",
+    "direction": "Τοποθεσία",
+    "price": "Τιμή",
+    "resalePrice": "Τιμή Μεταπώλησης",
+    "sellTickets": "Πώληση",
+    "unsellTickets": "Kατάργηση\nΠώλησης",
+    "hostedBy": "Διοργανώνεται από",
+    "poweredBy": "Με την δύναμη της",
+    "sharedBy": "Κοινοποιημένο από",
+    "sell": "πουλήσετε",
+    "share": "μεταβιβάσετε",
+    "scannedTicketQR": "O QR κωδικός δεν είναι διαθεσίμος, το παρόν εισητήριο έχει σαρωθεί",
+    "PastOrUpcoming": "O QR κωδικός θα είναι διαθέσιμος την ημέρα της εκδήλωσης",
+    "resalePriceQR": "Για να εμφανιστεί ο QR κωδικός, πρέπει πρώτα να καταργήσετε την πώληση",
+    "sharedWithQR": "Για να εμφανιστεί ο QR κωδικός, πρέπει πρώτα να ανακτήσετε το εισιτήριο",
+    "of": "από",
+    "needHelp": " Χρειάζεστε βοήθεια?",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "modals": {
+      "ticket_is_shared_by_forbid_action": {
+        "title": "Δεν μπορείτε να {{action}} το εισιτήριο σας!",
+        "message": "Σημείωση: Το εισιτήριο σας εχει μεταβιβαστεί από τον {{sharedBy}}.\n Δεν μπορείτε να {{action}} ένα εισητήριο το οποίο σας το έχει μεταβιβάσει κάποιος άλλος"
+      },
+      "ticket_is_shared_with_forbid_sell": {
+        "title": "Δεν μπορείτε να πουλήσετε το εισιτήριο σας!",
+        "message": "Σημείωση: Για να πουλήσετε το εισιτήριο σας πρέπει πρώτα να το ανακτήσετε",
+        "primaryLabel": "Επιβεβαίωση",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "ticket_is_listed_for_sell_forbid_share": {
+        "title": "Δεν μπορείτε να μεταβιβάσετε το εισιτήριο σας!",
+        "message": "Σημείωση: Για να μεταβιβάσετε το εισιτήριο σας, θα πρέπει πρώτα να ακυρώσετε το αίτημα πώλησης",
+        "primaryLabel": "Επιβεβαίωση",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "ticketScanned": {
+        "title": "Δεν μπορείτε να {{option}} ένα εισιτήριο το οποίο έχει ήδη σαρωθεί."
+      }
+    }
+  },
+  "ticketSelection": {
+    "select_option": "{{option}} που πρόκειται να {{type}}"
+  },
+  "profile": {
+    "hello": "Γεια σου",
+    "supportAndFAQ": "Υποστήριξη",
+    "reportBug": "Αναφέρετε κάποιο πρόβλημα",
+    "sessionTermination": "Αποσύνδεση και Διαγραφή",
+    "logout": "Αποσύνδεση",
+    "deleteAccount": "Διαγραφή Λογαριασμού",
+    "settings": "Ρυθμίσεις",
+    "account": "Λογαριασμός",
+    "language": "Γλώσσα",
+    "email": "Email",
+    "firstName": "Όνομα",
+    "lastName": "Επίθετο",
+    "oldEmailCode": "Κωδικός τρέχοντος email",
+    "newEmailCode": "Κωδικός νέου email",
+    "code": "κωδικός επιβεβαίωσης",
+    "modals": {
+      "delete_account_confirmation": {
+        "title": "Είστε σίγουροι ότι θέλετε να διαγράψετε τον λογαριασμό σας;",
+        "message": "Σημείωση: Αυτή η ενέργεια δεν μπορεί να αναιρεθεί",
+        "primaryLabel": "Επιβεβαίωση",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "delete_account_completion": {
+        "title": "Ένα email που περιέχει τον σύνδεσμο για την διαγραφή του λογαριασμού σας έχει σταλθεί στο email σας.",
+        "message": "Θα μεταφερθείτε στην αρχική σελίδα σύντομα."
+      },
+      "delete_account_error": {
+        "title": "Κάτι πήγε στραβά",
+        "message": "Παρακαλώ προσπαθήστε ξανά"
+      },
+      "change_name_confirmation": {
+        "title": "Είστε σίγουροι ότι θέλετε να αλλάξετε το {{option}} σας;",
+        "primaryLabel": "Επιβεβαίωση",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "change_name_successful_update": {
+        "title": "🎉 Συγχαρητήρια!",
+        "message": "Το {{option}} άλλαξε επιτυχώς"
+      },
+      "change_name_error": {
+        "title": "Κάτι πήγε στραβά",
+        "message": "Παρακαλώ προσπαθήστε ξανά"
+      },
+      "update_email_error_case_1": {
+        "title": "Το Email χρησιμοποιείται από άλλον χρήστη!",
+        "message": "Παρακαλώ προσπαθήστε ξανά"
+      },
+      "update_email_error_case_2": {
+        "title": "Χρειάζεται να ορίσετε διαφορετικό Email από το ήδη υπάρχον!",
+        "message": "Παρακαλώ προσπαθήστε ξανά"
+      },
+      "update_email_error_case_3": {
+        "title": "Κάτι πήγε στραβά",
+        "message": "Παρακαλώ προσπαθήστε ξανά"
+      },
+      "verify_email": {
+        "title": "Επιβεβαιώστε το email σας",
+        "message": "Στείλαμε ένα email στο {{oldEmail}} \n και στο {{newEmail}}.\n Παρακαλούμε συμπληρώστε τους κωδικούς.",
+        "primaryLabel": "Υποβολή",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "verify_email_successfully": {
+        "title": "🎉 Συγχαρητήρια!",
+        "message": "Το email σας άλλαξε επιτυχώς"
+      },
+      "verify_email_error": {
+        "title": "Κάτι πήγε στραβά",
+        "message": "Δεν μπορέσαμε να βρούμε έγκυρο κωδικό γι αυτό το email.\n Οι κωδικοί σας ίσως έχουν λήξει.\nΠροσπαθήστε ξανά με νέους κωδικούς"
+      }
+    }
+  },
+  "sellTickets": {
+    "title": "Πώληση εισιτηρίων",
+    "details": "Λεπτομέρειες πώλησης",
+    "button_CTA": "Πώληση εισιτηρίου",
+    "price_range_min_max": "Λάβετε υπόψι ότι μπορείτε να πουλήσετε το εισιτήριο σε τιμές που κυμαίνονται μεταξύ {{currency}}{{min}}-{{currency}}{{max}}.",
+    "price_range_min": "Λάβετε υπόψι ότι μπορείτε να πουλήσετε το εισιτήριο σε τιμές μεγαλύτερες από {{currency}}{{min}}",
+    "price_range_max": "υπόψι ότι μπορείτε να πουλήσετε το εισιτήριο σε τιμές μικρότερες από {{currency}}{{max}}",
+    "organizerCommission": "Προμήθεια Διοργανωτή",
+    "priceAfterFees": "Ποσό που πρόκειται να πιστωθεί",
+    "agreement": {
+      "prefix": "Με την πώληση αυτού του εισιτηρίου συμφωνείτε αυτόματα με τους",
+      "terms": "Όρους & Προϋποθέσεις"
+    },
+    "price": "Τιμή",
+    "set_recommended_price": "Ορίστε την προτεινόμενη τιμή",
+    "validations": {
+      "price": "Εισαγάγετε την τιμή που προτιμάτε",
+      "minPrice": "Η τιμή πώλησης δεν μπορεί να είναι μικρότερη από {{currency}}{{minPrice}}",
+      "maxPrice": "Η τιμή πώλησης δεν μπορεέι να έιναι μεγαλύτερη από {{currency}}{{maxPrice}}",
+      "range": "Η τιμή πώλησης πρέπει να κυμαίνεται μεταξύ {{currency}}{{minPrice}}-{{currency}}{{maxPrice}}"
+    },
+    "modals": {
+      "sell_confirmation": {
+        "title": "Είστε βέβαιοι ότι θέλετε να πουλήσετε το εισιτήριο;",
+        "primaryLabel": "Επιβεβαίωση",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "sell_completion": {
+        "title": "🎉 Συγχαρητήρια!",
+        "message": "Θα σας ειδοποιήσουμε μόλις πωληθεί το εισιτήριο σας."
+      },
+      "unsell_confirmation": {
+        "title": "Είστε βέβαιοι ότι θέλετε να καταργήσετε την πώληση του εισιτηρίου;",
+        "primaryLabel": "Επιβεβαίωση",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "unsell_completion": {
+        "title": "🎉 Συγχαρητήρια!",
+        "message": "Καταργήσατε την πώληση του εισιτηρίου με επιτυχία."
+      }
+    }
+  },
+  "bottomTabNavigator": {
+    "Account": "Λογαριασμός",
+    "Tickets": "Εισιτήρια"
+  },
+  "shareTicket": {
+    "title": "Μεταβίβαση Εισιτηρίου",
+    "unshare_CTA": "Ανάκτηση Εισιτηρίου",
+    "email": {
+      "title": "Μεταβίβαση Μέσω Email",
+      "placeholder": "Προσθήκη διεύθυνσης email",
+      "invitation_shared": "Το εισιτήριο μεταβιβάστηκε στο"
+    },
+    "modals": {
+      "share_completion": {
+        "title": "Αυτό το εισιτήριο μεταβιβάστηκε με επιτυχία.",
+        "message": "Σημείωση: δεν μπορείτε να μεταβιβάσετε ένα\nεισιτήριο σε περισσότερα από ένα άτομα."
+      },
+      "unshare_confirmation": {
+        "title": "Είστε βέβαιοι ότι θέλετε να ανακτήσετε το εισιτήριο;",
+        "primaryLabel": "Επιβεβαίωση",
+        "secondaryLabel": "Ακύρωση"
+      },
+      "unshare_completion": {
+        "title": "🎉 Συγχαρητήρια!",
+        "message": "Ανακτήσατε το εισιτήριο με επιτυχία."
+      },
+      "share_failed_not_existing_account": {
+        "title": "O συγκεκριμένος χρήστης δεν υπάρχει",
+        "message": "Δεν μπορέσαμε να βρούμε τον χρήστη στον οποίο θέλετε να μεταβιβάσετε το εισιτήριο"
+      },
+      "share_failed_generic_error": {
+        "title": "Κάτι πήγε στραβά",
+        "message": "Εργαζόμαστε για να το φτιάξουμε. Για περισσότερες πληροφορίες στείλτε email στο support@cometogether.network "
+      }
+    }
+  },
+  "months": {
+    "JAN": "ΙΑΝ",
+    "FEB": "ΦΕΒ",
+    "MAR": "ΜΑΡ",
+    "APR": "ΑΠΡ",
+    "MAY": "ΜΑΙ",
+    "JUN": "ΙΟΥΝ",
+    "JUL": "ΙΟΥΛ",
+    "AUG": "ΑΥΓ",
+    "SEP": "ΣΕΠ",
+    "OCT": "ΟΚΤ",
+    "NOV": "ΝΟΕ",
+    "DEC": "ΔΕΚ"
+  }
+}

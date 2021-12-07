@@ -1,0 +1,271 @@
+{
+  "common": {
+    "next": "Next",
+    "email_example": "You@bethebest.com",
+    "invalid_email": "Email address is invalid!",
+    "close": "Close",
+    "cancel": "Cancel",
+    "seat": "Seat",
+    "ticket": "Ticket",
+    "sell": "Sell",
+    "share": "Transfer",
+    "back": "Back"
+  },
+  "validations": {
+    "email": {
+      "empty": "The email field cannot be left blank. Please fill in recipient’s email address.",
+      "invalid": "Email address is not correct. Please check the address and  try again."
+    },
+    "name": {
+      "empty": "The name field cannot be left blank.",
+      "invalid": "Name field is not correct"
+    },
+    "codes": {
+      "empty": "The code field cannot be left blank",
+      "invalid": "Please submit a 4 digit code"
+    }
+  },
+  "login": {
+    "tagline": "NFT Collectibles App",
+    "email_placeholder": "Enter your email address here",
+    "email_button_CTA": "Send Me the Magic Link",
+    "or": "Or",
+    "agreement": {
+      "prefix": "By continuing, you agree to our",
+      "terms": "Terms of Service",
+      "privacy_policy": "Privacy Policy",
+      "content_policy": "Content Policy"
+    },
+    "logout": "Logout",
+    "modals": {
+      "email_sent_info": {
+        "title": "✨ An email with a magic link has been sent to your email address.",
+        "message": "Please follow the email\ninstructions."
+      }
+    }
+  },
+  "wallet": {
+    "withdraw": "withdraw",
+    "sell": "sell",
+    "collection": "Collection",
+    "promo": "Your collectibles right in one place",
+    "explore_more": "Some more NFTs are waiting for you!",
+    "check_redeem": "Check The Redeem Page",
+    "unSell": "Cancel Sell"
+  },
+  "terms": {
+    "our_services": "OUR SERVICES"
+  },
+  "policies": {
+    "policy_title": "A. PRIVACY POLICY"
+  },
+  "myTickets": {
+    "tickets": "Tickets",
+    "no_tickets": "You don't have tickets yet",
+    "explore_events": "Explore events nearby for get one",
+    "hosted_by": "Hosted by ",
+    "date": "en-US",
+    "today": "Today",
+    "upcoming": "Upcoming Events",
+    "past": "Past Events"
+  },
+  "viewTickets": {
+    "zone": "Zone",
+    "seats": "Seats",
+    "ticketCategory": "Ticket Category",
+    "shareTicket": "Transfer Ticket",
+    "unshareTicket": "Retrieve Ticket",
+    "location": "Location",
+    "direction": "Get Direction",
+    "price": "Price",
+    "resalePrice": "Resale Price",
+    "sellTickets": "Sell Ticket",
+    "unsellTickets": "Cancel Sale",
+    "hostedBy": "Hosted By",
+    "poweredBy": "Powered By",
+    "sharedBy": "Transferred by",
+    "sell": "sell",
+    "share": "transfer",
+    "scannedTicketQR": "QR code is not available, the ticket is already scanned",
+    "PastOrUpcoming": "QR code will be unlocked on a day of event",
+    "resalePriceQR": "In order to see the QR code, you have to cancel the sale first",
+    "sharedWithQR": "In order to see the QR code, you have to retrieve the ticket first",
+    "of": "of",
+    "needHelp": " Need Help?",
+    "contactUs": "Contact Us",
+    "modals": {
+      "ticket_is_shared_by_forbid_action": {
+        "title": "You can't {{action}} your ticket!",
+        "message": "Notice: Your ticket is transferred by {{sharedBy}}.\n You can not {{action}} a ticket that is transferred to you by someone else"
+      },
+      "ticket_is_shared_with_forbid_sell": {
+        "title": "You can't sell your ticket!",
+        "message": "Notice: In order to sell the ticket, you have to retrieve it first.",
+        "primaryLabel": "Retrieve Ticket",
+        "secondaryLabel": "Cancel"
+      },
+      "ticket_is_listed_for_sell_forbid_share": {
+        "title": "You can't transfer your ticket!",
+        "message": "Notice: In order to transfer this ticket, you have to cancel your resale request",
+        "primaryLabel": "Cancel Sale",
+        "secondaryLabel": "Cancel"
+      },
+      "ticketScanned": {
+        "title": "You can't {{option}} an already scanned ticket."
+      }
+    }
+  },
+  "ticketSelection": {
+    "select_option": "{{option}} you are about to {{type}}"
+  },
+  "profile": {
+    "hello": "Hello",
+    "supportAndFAQ": "Support & FAQ",
+    "reportBug": "Report A Bug",
+    "sessionTermination": "Logout and Deletion",
+    "logout": "Log Out",
+    "deleteAccount": "Permanently Delete Your Account",
+    "settings": "Settings",
+    "account": "Account",
+    "language": "Language",
+    "email": "Email ID",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "oldEmailCode": "Current email code",
+    "newEmailCode": "New email code",
+    "code": "verification code",
+    "modals": {
+      "delete_account_confirmation": {
+        "title": "Are you sure you want to delete your account?",
+        "message": "Notice: this action can not be undone",
+        "primaryLabel": "Confirm",
+        "secondaryLabel": "Cancel"
+      },
+      "delete_account_completion": {
+        "title": "An email containing a deletion confirmation link has been sent to your email address.",
+        "message": "You will be redirected to login page shortly."
+      },
+      "delete_account_error": {
+        "title": "Oops, something went wrong",
+        "message": "Please try again"
+      },
+      "change_name_confirmation": {
+        "title": "Are you sure you want to change your {{option}}?",
+        "primaryLabel": "Confirm",
+        "secondaryLabel": "Cancel"
+      },
+      "change_name_successful_update": {
+        "title": "🎉 Congrats!",
+        "message": "Your {{option}} has been changed"
+      },
+      "change_name_error": {
+        "title": "Oops, something went wrong",
+        "message": "Please try again"
+      },
+      "update_email_error_case_1": {
+        "title": "Email already in use!",
+        "message": "Please try again"
+      },
+      "update_email_error_case_2": {
+        "title": "You need to specify a different email!",
+        "message": "Please try again"
+      },
+      "update_email_error_case_3": {
+        "title": "Oops, something went wrong",
+        "message": "Please try again"
+      },
+      "verify_email": {
+        "title": "Verify your email",
+        "message": "We have sent email to {{oldEmail}} \n and  to {{newEmail}}.\n Please submit the codes.",
+        "primaryLabel": "Submit",
+        "secondaryLabel": "Cancel"
+      },
+      "verify_email_successfully": {
+        "title": "🎉 Congrats!",
+        "message": "Your email has been changed"
+      },
+      "verify_email_error": {
+        "title": "Oops something went wrong",
+        "message": "We were unable to find a valid code for this email.\n Your code may have expired.\n Please try again with new codes. \n"
+      }
+    }
+  },
+  "sellTickets": {
+    "title": "Sell Tickets",
+    "details": "Selling Details",
+    "button_CTA": "Sell Ticket",
+    "price_range_min_max": "Please keep in mind that you can sell the ticket for between {{currency}}{{min}}-{{currency}}{{max}}.",
+    "price_range_min": "Please keep in mind that you can sell the ticket for above {{currency}}{{min}}",
+    "price_range_max": "Please keep in mind that you can sell the ticket for below {{currency}}{{max}}",
+    "organizerCommission": "Event Organizer Commission",
+    "priceAfterFees": "Amount to Be Credited",
+    "agreement": {
+      "prefix": "By selling this ticket you automatically agree to our",
+      "terms": "Terms & Conditions"
+    },
+    "price": "Price",
+    "set_recommended_price": "Set Recommended Price",
+    "validations": {
+      "price": "Please enter your preferred price",
+      "minPrice": "Price can not be lower than {{currency}}{{minPrice}}",
+      "maxPrice": "Price can not be higher than {{currency}}{{maxPrice}}",
+      "range": "Selling price must be between {{currency}}{{minPrice}}-{{currency}}{{maxPrice}}"
+    },
+    "modals": {
+      "sell_confirmation": {
+        "title": "Are you sure you want to sell the ticket?",
+        "primaryLabel": "Confirm",
+        "secondaryLabel": "Cancel"
+      },
+      "sell_completion": {
+        "title": "🎉 Congrats!",
+        "message": "We will notify you once your ticket is sold."
+      },
+      "unsell_confirmation": {
+        "title": "Are you sure you want to retrieve the ticket from the resale?",
+        "primaryLabel": "Retrieve Ticket",
+        "secondaryLabel": "Cancel"
+      },
+      "unsell_completion": {
+        "title": "This ticket was successfully withdrawn from the resale.",
+        "message": "Notice: you may return at any moment to sell it again."
+      }
+    }
+  },
+  "shareTicket": {
+    "title": "Transfer Ticket",
+    "unshare_CTA": "Retrieve Ticket",
+    "email": {
+      "title": "Transfer Via Email",
+      "placeholder": "Add email address",
+      "invitation_shared": "Ticket is transferred to"
+    },
+    "modals": {
+      "share_completion": {
+        "title": "This ticket has been successfully transferred.",
+        "message": "Notice: you can’t transfer a\nticket to more than one person."
+      },
+      "unshare_confirmation": {
+        "title": "Are you sure you want to retrieve the ticket?",
+        "primaryLabel": "Retrieve Ticket",
+        "secondaryLabel": "Cancel"
+      },
+      "unshare_completion": {
+        "title": "🎉 Congrats!",
+        "message": "You successfully retrieved\n the ticket."
+      },
+      "share_failed_not_existing_account": {
+        "title": "That user doesn't have an account",
+        "message": "We could not find the user you requested to transfer the ticket to"
+      },
+      "share_failed_generic_error": {
+        "title": "Oops, something went wrong",
+        "message": "We are trying to fix it. For more information please contact support@cometogether.network "
+      }
+    }
+  },
+  "bottomTabNavigator": {
+    "Account": "Account",
+    "Tickets": "Tickets"
+  }
+}
